@@ -3,7 +3,8 @@ import { create } from "zustand";
 export const enum Tabs {
   Users = "Users",
   User = "User",
-  Request = "Request", // New tab
+  Request = "Request",
+  UploadVideo = "UploadVideo", // New tab for the upload video page
 }
 
 type SidebarStore = {
